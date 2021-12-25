@@ -23,27 +23,27 @@ namespace Zadanie1
         public SchetVBanke()
         {
             generator++;
+            number += generator.ToString();
         }
-        public string Number
+        public SchetVBanke(decimal balans)
         {
-            get
-            {
-                return number;
-            }
-            set
-            {
-                this.number = value;
-            }
+            generator++;
+            number += generator.ToString();
+            this.balans = balans;
         }
-        public decimal Balans
+        public SchetVBanke(type typeScheta)
         {
-            get { return balans; }
-            set { this.balans = value; }
+            generator++;
+            number += generator.ToString();
+            this.typeScheta = typeScheta;
         }
-        public type TypeScheta
+        public SchetVBanke(decimal balans, type typeScheta)
         {
-            get { return typeScheta; }
-            set { this.typeScheta = value;}
+            generator++;
+            number += generator.ToString();
+            this.balans = balans;
+            this.typeScheta = typeScheta;
         }
+
     }
 }
