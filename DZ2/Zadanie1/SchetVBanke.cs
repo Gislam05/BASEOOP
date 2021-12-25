@@ -16,11 +16,18 @@ namespace Zadanie1
 
     internal class SchetVBanke
     {
-        public static int generator;
+        private static int generator;
         private string number;
         private decimal balans;
         private type typeScheta;
-        public SchetVBanke()
+       
+        public decimal Balans
+        {
+            get { return balans; }
+        }
+
+
+        public SchetVBanke() //Этих круглых скобок не бывает после свойств - визуальное отличие от методов
         {
             generator++;
             number += generator.ToString();
@@ -44,6 +51,25 @@ namespace Zadanie1
             this.balans = balans;
             this.typeScheta = typeScheta;
         }
+
+        public void polojit (int sum)
+        {
+            balans += sum;
+        }
+
+        public void snyat(int sum)
+        {
+            if (balans >= sum)
+            balans -= sum;
+            else
+            {
+                Console.WriteLine($"Укажите сумму меньше или равную {balans}") ;
+            }
+
+        }
+
+        
+
 
     }
 }
