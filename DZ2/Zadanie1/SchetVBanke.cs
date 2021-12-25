@@ -16,9 +16,14 @@ namespace Zadanie1
 
     internal class SchetVBanke
     {
+        public static int generator;
         private string number;
         private decimal balans;
         private type typeScheta;
+        public SchetVBanke()
+        {
+            generator++;
+        }
         public string Number
         {
             get
