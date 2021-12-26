@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ISLAM\\source\\repos\\BASEOOP\\DZ2\\Zadanie1\\Zadanie1.csproj",
+      "projectUniqueName": "C:\\Users\\ISLAM\\Source\\Repos\\Gislam05\\BASEOOP\\DZ2\\Zadanie1\\Zadanie1.csproj",
       "projectName": "Zadanie1",
-      "projectPath": "C:\\Users\\ISLAM\\source\\repos\\BASEOOP\\DZ2\\Zadanie1\\Zadanie1.csproj",
+      "projectPath": "C:\\Users\\ISLAM\\Source\\Repos\\Gislam05\\BASEOOP\\DZ2\\Zadanie1\\Zadanie1.csproj",
       "packagesPath": "C:\\Users\\ISLAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ISLAM\\source\\repos\\BASEOOP\\DZ2\\Zadanie1\\obj\\",
+      "outputPath": "C:\\Users\\ISLAM\\Source\\Repos\\Gislam05\\BASEOOP\\DZ2\\Zadanie1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ISLAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
