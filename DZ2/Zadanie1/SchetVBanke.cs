@@ -20,7 +20,7 @@ namespace Zadanie1
         private string number;
         private decimal balans;
         private type typeScheta;
-       
+
         public decimal Balans
         {
             get { return balans; }
@@ -52,7 +52,7 @@ namespace Zadanie1
             this.typeScheta = typeScheta;
         }
 
-        public void polojit (int sum)
+        public void polojit(int sum)
         {
             balans += sum;
         }
@@ -60,16 +60,24 @@ namespace Zadanie1
         public void snyat(int sum)
         {
             if (balans >= sum)
-            balans -= sum;
+                balans -= sum;
             else
             {
-                Console.WriteLine($"Укажите сумму меньше или равную {balans}") ;
+                Console.WriteLine($"Укажите сумму меньше или равную {balans}");
             }
 
         }
 
-        
+        public void perevod(SchetVBanke schet, int summ)
+        {
+            if (schet.balans >= summ)
+            {
+                schet.balans -= summ;
+                balans += summ;
+            }
 
+            else Console.WriteLine($"Мало денег. Введите сумму не больше {schet.balans}");
+        }
 
     }
 }
