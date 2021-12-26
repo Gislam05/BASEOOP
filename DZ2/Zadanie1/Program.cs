@@ -2,9 +2,14 @@
 using Zadanie1;
 
 
-SchetVBanke moySchet = new SchetVBanke();
-moySchet.Balans = 800.93m;
-moySchet.TypeScheta = type.Budgetny;
-moySchet.Number = "5469600147901901";
+SchetVBanke moySchet = new SchetVBanke(1000, type.Zamorojenny);
+SchetVBanke moySchet2 = new SchetVBanke(300, type.Budgetny);
 
-Console.WriteLine($"Номер счета: {moySchet.Number} \n Тип счета: {moySchet.TypeScheta} \n Баланс: {moySchet.Balans}");
+moySchet.snyat(60);
+Console.WriteLine($"Состояние до перевода: Счет 1 = {moySchet.Balans} Счет 2 = {moySchet2.Balans}");
+moySchet.perevod(moySchet2, 200);
+Console.WriteLine($"Результат после перевода:  Счет 1 = {moySchet.Balans} Счет 2 = {moySchet2.Balans}");
+Console.WriteLine($"Остаток: {moySchet.Balans}");
+
+moySchet.polojit(500);
+Console.WriteLine($"Остаток: {moySchet.Balans}");
