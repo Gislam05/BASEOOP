@@ -1,0 +1,15 @@
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\Zadanie2.exe
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\Zadanie2.deps.json
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\Zadanie2.runtimeconfig.json
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\Zadanie2.dll
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\ref\Zadanie2.dll
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\bin\Debug\net6.0\Zadanie2.pdb
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.csproj.AssemblyReference.cache
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.AssemblyInfoInputs.cache
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.AssemblyInfo.cs
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.csproj.CoreCompileInputs.cache
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.dll
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\ref\Zadanie2.dll
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.pdb
+C:\Users\ISLAM\Source\Repos\Gislam05\BASEOOP\DZ3\Zadanie2\obj\Debug\net6.0\Zadanie2.genruntimeconfig.cache
