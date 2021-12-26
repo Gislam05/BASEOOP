@@ -16,29 +16,68 @@ namespace Zadanie1
 
     internal class SchetVBanke
     {
+        private static int generator;
         private string number;
         private decimal balans;
         private type typeScheta;
-        public string Number
-        {
-            get
-            {
-                return number;
-            }
-            set
-            {
-                this.number = value;
-            }
-        }
+
         public decimal Balans
         {
             get { return balans; }
-            set { this.balans = value; }
         }
-        public type TypeScheta
+
+
+        public SchetVBanke() //Этих круглых скобок не бывает после свойств - визуальное отличие от методов
         {
-            get { return typeScheta; }
-            set { this.typeScheta = value;}
+            generator++;
+            number += generator.ToString();
         }
+        public SchetVBanke(decimal balans)
+        {
+            generator++;
+            number += generator.ToString();
+            this.balans = balans;
+        }
+        public SchetVBanke(type typeScheta)
+        {
+            generator++;
+            number += generator.ToString();
+            this.typeScheta = typeScheta;
+        }
+        public SchetVBanke(decimal balans, type typeScheta)
+        {
+            generator++;
+            number += generator.ToString();
+            this.balans = balans;
+            this.typeScheta = typeScheta;
+        }
+
+        public void polojit(int sum)
+        {
+            balans += sum;
+        }
+
+        public void snyat(int sum)
+        {
+            if (balans >= sum)
+                balans -= sum;
+            else
+            {
+                Console.WriteLine($"Укажите сумму меньше или равную {balans}");
+            }
+
+        }
+
+        public void perevod(SchetVBanke schet, int summ)
+        {
+            if (schet.balans >= summ)
+            {
+                schet.balans -= summ;
+                balans += summ;
+            }
+
+            else Console.WriteLine($"Мало денег. Введите сумму не больше {schet.balans}");
+        }
+
     }
 }
