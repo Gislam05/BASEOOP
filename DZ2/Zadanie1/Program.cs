@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Zadanie1;
+Console.WriteLine("Введите строку для переворота");
 
+Console.WriteLine(Reverse(Console.ReadLine()));
+string Reverse(string s)
+{
+    char[] a = s.ToCharArray();
+    Array.Reverse(a);
 
-SchetVBanke moySchet = new SchetVBanke();
-moySchet.Balans = 800.93m;
-moySchet.TypeScheta = type.Budgetny;
-moySchet.Number = "5469600147901901";
-
-Console.WriteLine($"Номер счета: {moySchet.Number} \n Тип счета: {moySchet.TypeScheta} \n Баланс: {moySchet.Balans}");
+    return String.Concat(a);
+}
