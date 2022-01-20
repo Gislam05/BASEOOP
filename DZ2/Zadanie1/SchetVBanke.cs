@@ -14,6 +14,7 @@ namespace Zadanie1
         Zastraxovanny,
     }
 
+   
     internal class SchetVBanke
     {
         private string number;
@@ -39,6 +40,17 @@ namespace Zadanie1
         {
             get { return typeScheta; }
             set { this.typeScheta = value;}
+        }
+        public static bool operator ==(SchetVBanke s1, SchetVBanke s2)
+        {
+            
+            return true;
+
+        }
+        public static bool operator !=(SchetVBanke s1, SchetVBanke s2)
+        {
+            return true;
+
         }
     }
 }
