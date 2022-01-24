@@ -52,5 +52,6 @@ namespace Zadanie1
             return true;
 
         }
+
     }
 }
